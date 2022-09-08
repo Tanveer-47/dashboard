@@ -1,0 +1,18 @@
+.layout {
+  display: flex;
+
+  .main {
+    flex: 6;
+    background-color: #ffffff;
+
+    main {
+      padding: 20px;
+    }
+  }
+
+  &.dark {
+    .main {
+      background-color: #333333;
+    }
+  }
+}
