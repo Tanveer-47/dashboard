@@ -1,0 +1,21 @@
+.chart {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+
+  h3 {
+    text-align: center;
+  }
+
+  .chartGrid {
+    stroke: #bbbbbb;
+  }
+
+  &.dark {
+    color: #999999;
+
+    .chartGrid {
+      stroke: #666666;
+    }
+  }
+}
